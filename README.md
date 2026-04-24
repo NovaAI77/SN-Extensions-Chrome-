@@ -12,11 +12,11 @@ A lightweight Chrome extension. While logged into ServiceNow, hover over a sys_i
 - Dedup logic fix — `lastValue` now tracks the raw value, not the query string
 
 ## Installation
-1. Unzip this package
+1. Download files/Clone repository
 2. Go to chrome://extensions
 3. Enable Developer mode
 4. Click Load unpacked
-5. Select the `sn-hover-user-location-claude` folder
+5. Select the `whatever you name it` folder
 
 ## Usage
 1. Log into your ServiceNow instance
