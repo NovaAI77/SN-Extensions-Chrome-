@@ -1,4 +1,4 @@
-# SN Hover User Location Chrome Extension (Claude Version)
+# SN Hover User Location Chrome Extension
 
 ## Overview
 A lightweight Chrome extension. While logged into ServiceNow, hover over a sys_id or user name to display key user details (Name, Email, Location) in a tooltip.
