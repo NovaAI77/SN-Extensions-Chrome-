@@ -1,0 +1,25 @@
+.sn-user-tooltip {
+    position: fixed;
+    background: #1f2937;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 99999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    max-width: 260px;
+    pointer-events: none;
+}
+
+.sn-user-tooltip .sn-name {
+    font-weight: 600;
+}
+
+.sn-user-tooltip .sn-email {
+    opacity: 0.85;
+}
+
+.sn-user-tooltip .sn-location {
+    margin-top: 4px;
+    font-style: italic;
+}

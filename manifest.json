@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SN Hover User Location",
+  "version": "1.1",
+  "description": "Hover over a sys_id or user name in ServiceNow to see user location details.",
+  "content_scripts": [
+    {
+      "matches": ["https://*.service-now.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "all_frames": true
+    }
+  ],
+  "host_permissions": [
+    "https://*.service-now.com/*"
+  ]
+}
